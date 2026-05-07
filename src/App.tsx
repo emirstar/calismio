@@ -19,6 +19,7 @@ import {
   Users,
 } from 'lucide-react'
 
+import { BackgroundMusic } from './BackgroundMusic'
 import { MascotCat } from './MascotCat'
 import { LogoMark } from './LogoMark'
 
@@ -85,6 +86,7 @@ const historyBars = [12, 28, 8, 40, 22, 35, 18, 45, 30, 25, 38, 15, 32, 20]
 function App() {
   return (
     <div className="flex min-h-screen bg-[#f8fafc] font-sans text-slate-800 antialiased">
+      <BackgroundMusic />
       {/* Sidebar */}
       <aside className="sticky top-0 flex h-screen w-[228px] shrink-0 flex-col border-r border-slate-200/80 bg-white px-4 py-6 shadow-[2px_0_24px_-12px_rgba(15,23,42,0.08)]">
         <div className="mb-8 flex items-center gap-2 px-2">
