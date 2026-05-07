@@ -122,7 +122,7 @@ function App() {
             <MascotCat className="h-[156px] w-auto shrink-0 object-contain object-bottom pointer-events-none select-none drop-shadow-[0_10px_24px_rgba(30,64,175,0.15)]" />
             <div className="min-w-0 pt-1">
               <h1 className="text-[1.65rem] font-bold tracking-tight text-slate-900 lg:text-[1.85rem]">
-                Merhaba, Ali! 👋
+                Merhaba, Ahmet! 👋
               </h1>
               <p className="mt-1 text-[15px] text-slate-500">
                 Bugünün hedeflerine ulaşmaya hazır mısın?
